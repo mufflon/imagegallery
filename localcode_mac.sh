@@ -16,4 +16,4 @@ mkdir "$NEWOUTPUT"
 
 echo "output is $NEWOUTPUT"
 echo "will now run docker"
-docker run --mount type=bind,source="$1",target=/usr/src/app/source --mount type=bind,source="$NEWOUTPUT",target=/usr/src/app/dest sigalsolution
+docker run --mount type=bind,source="$1",target=/usr/src/app/source --mount type=bind,source="$NEWOUTPUT",target=/usr/src/app/dest mufflonicus/imagelibrary
