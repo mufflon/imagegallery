@@ -5,7 +5,7 @@ text = sys.stdin.read()
 
 file_endings = [".jpg",".jpeg",".png"]
 
-prefix = "prefix"
+prefix = ""
 
 def get_first_occurence(haystack, needles):
 	for i in range(len(haystack)):
