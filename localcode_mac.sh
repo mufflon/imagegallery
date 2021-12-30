@@ -10,7 +10,7 @@ BASENAME=$(basename "$1")
 echo "directory is $DIRECTORY"
 echo "basename is $BASENAME"
 
-NEWOUTPUT=$DIRECTORY"/web-"$BASENAME
+NEWOUTPUT=$DIRECTORY"/web-$BASENAME"
 
 mkdir $NEWOUTPUT
 
