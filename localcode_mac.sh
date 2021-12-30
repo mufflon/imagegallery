@@ -3,6 +3,8 @@
 #It gets a file as the first argument
 #It will generate a directory with the same name with a prefix of web- in the same directory
 echo "The passed arguments are: $@"
+echo "$1 first instruction"
+
 DIRECTORY=$(dirname $1)
 BASENAME=$(basename $1)
 echo "directory is $DIRECTORY"
