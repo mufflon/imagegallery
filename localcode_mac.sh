@@ -12,7 +12,7 @@ echo "basename is $BASENAME"
 
 NEWOUTPUT=$DIRECTORY"/web-$BASENAME"
 
-mkdir $NEWOUTPUT
+mkdir "$NEWOUTPUT"
 
 echo "output is $NEWOUTPUT"
 echo "will now run docker"
