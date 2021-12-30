@@ -5,8 +5,8 @@
 echo "The passed arguments are: $@"
 echo "$1 first instruction"
 
-DIRECTORY=$(dirname '$1')
-BASENAME=$(basename '$1')
+DIRECTORY=$(dirname "$1")
+BASENAME=$(basename "$1")
 echo "directory is $DIRECTORY"
 echo "basename is $BASENAME"
 
