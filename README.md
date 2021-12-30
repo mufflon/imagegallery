@@ -9,4 +9,4 @@ Will generate image library in <local dest> based on the images found in <local 
 
 # Shell command for using Automator to pipe relevant input
 
-echo "prefix$PWD/test.jpg" | python pythoncode.py | xargs -I {} ./localcode_mac.sh {}
+echo "prefix$@" | python3 ~/Applications/Skapa\ Webbgalleri/imagegallery/pythoncode.py | xargs -I {} ~/Applications/Skapa\ Webbgalleri/imagegallery/localcode_mac.sh {}
